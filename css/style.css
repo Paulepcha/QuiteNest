@@ -1,0 +1,350 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(110, 38, 14); */
+    background-image: linear-gradient(to right,#659999,#d07f45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav ol{
+    list-style: none;
+    margin-top: 200px;
+}
+nav ol a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ol li{
+    margin-bottom: 30px;
+}
+
+nav ol li a{
+    font-size: 20px;
+}
+
+span:hover{
+    color: red;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,#659999,#d07f45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h1{
+    font-size: 15px;
+}
+.social {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right,#659999,#d07f45);
+    display: flex;
+    flex-direction: column;
+}
+
+.follow{
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(to right,#659999,#d07f45);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.follow h1{
+    color: red;
+}
+
+.icons{
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right,#659999,#d07f45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta i{
+    color: pink;
+    font-size: 30px;
+}
+
+.insta i:hover{
+    color: purple;
+}
+
+.social i{
+    margin-left: 15px;
+}
+
+.fb i{
+    color: blue;
+    font-size: 30px;
+}
+
+.fb i:hover{
+    color: skyblue;
+}
+
+/* Home section */
+
+.first{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../asset/cafe.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.welcome{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big{
+    font-size: 35px;
+}
+.welcome h1{
+    height: 200px;
+    width: 500px;
+    font-size: 90px;
+   margin-bottom: 20px;
+   color: white;
+}
+
+.welcome p{
+    height: 100px;
+    width: 500px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.welcome h2, h3{
+    color: white;
+}
+
+/* About section */
+
+.second{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutimg{
+    height: 600px;
+    width: 40%;
+    background-image: url(../asset/aboutimg.webp);
+    background-size: cover;
+    background-position: center;
+    margin-left: 300px;
+}
+
+.aboutus{
+    height: 600px;
+   width: 500px;
+   background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.aboutus h1{
+    font-size: 40px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aboutus p{
+    display: flex;
+    height: 100%;
+    width: 100%;
+   
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+/* Gallery section */
+
+.third{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right,#4fbebe,#e87625);
+    display: flex;
+    
+}
+.gallery-wrap {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 100%;
+}
+.gallery{
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery h1 {
+    padding: 20px;
+
+}
+
+.space{
+    height: 100vh;
+    width: 15%;
+}
+
+
+.imgwrap {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right,#4fbebe,#e87625);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.imgwrap .box1 {
+    height: 300px;
+    width: 280px;
+    margin: 10px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.imgwrap a{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: black;
+}
+
+.imgwrap a:hover{
+    color: wheat;
+}
+
+
+
+
+/* Menu section */
+
+.fouth{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+/* Contact */
+
+.fivth{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* For vertical scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: green;
+  }
+  
+  /* For horizontal scrollbar */
+  ::-webkit-scrollbar-horizontal {
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background: blue;
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal {
+    background: green
+  }
+
+  
